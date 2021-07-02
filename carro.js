@@ -1,12 +1,14 @@
 // Códigos do carro
 
-let xCarros = [600, 600, 600]
-let yCarros = [40, 96, 150]
-let velocidadeCarros = [2, 2.5, 3]
+let xCarros = [600, 600, 600, 600, 600, 600]
+let yCarros = [40, 96, 150, 210, 270, 318]
+let velocidadeCarros = [2, 2.5, 2.4, 4, 2.1, 2]
+let comprimentoCarro = 50
+let alturaCarro = 30
 
 function mostraCarro() {
   for (let i = 0; i < imagemCarros.length; i++) {
-    image(imagemCarros[i], xCarros[i], yCarros[i], 50, 30)
+    image(imagemCarros[i], xCarros[i], yCarros[i], comprimentoCarro, alturaCarro)
   }
 }
 
