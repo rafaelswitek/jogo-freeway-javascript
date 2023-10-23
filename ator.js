@@ -1,4 +1,5 @@
 // Códigos do ator
+
 let xAtor = 85
 let yAtor = 366
 let colidiu = false
